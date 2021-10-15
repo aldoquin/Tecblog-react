@@ -5,7 +5,7 @@ const NavbarComponent = () => {
   const history = useHistory();
   const signout = () => {
     localStorage.setItem("token", "");
-    history.push("/");
+    history.push("/landingPage");
   };
   return (
     <Navbar bg="light" expand="lg">
